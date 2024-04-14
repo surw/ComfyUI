@@ -36,7 +36,9 @@ class ImageUpscaleWithModel:
     CATEGORY = "image/upscaling"
 
     def upscale(self, upscale_model, image):
-        device = model_management.get_torch_device()
+        # device = model_management.get_torch_device()
+        # todo: balance gpus
+        device = torch.device(1)
         upscale_model.to(device)
         in_img = image.movedim(-1,-3).to(device)
         free_memory = model_management.get_free_memory(device)

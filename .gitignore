@@ -11,6 +11,7 @@ extra_model_paths.yaml
 /.vs
 .idea/
 venv/
+venvx/
 /web/extensions/*
 !/web/extensions/logging.js.example
 !/web/extensions/core/

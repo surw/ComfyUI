@@ -1,4 +1,4 @@
-torch
+torch==2.1.1+cu118
 torchsde
 torchvision
 einops
@@ -11,3 +11,9 @@ scipy
 tqdm
 psutil
 kornia>=0.7.1
+numba
+simpleeval
+insightface
+dynamicprompts
+onnxruntime-gpu
+imageio_ffmpeg
