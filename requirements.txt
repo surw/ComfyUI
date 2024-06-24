@@ -1,15 +1,18 @@
 torch==2.1.1+cu118
 torchsde
 torchvision
+torchaudio
 einops
 transformers>=4.25.1
-safetensors>=0.3.0
+safetensors>=0.4.2
 aiohttp
 pyyaml
 Pillow
 scipy
 tqdm
 psutil
+
+#non essential dependencies:
 kornia>=0.7.1
 numba
 simpleeval
@@ -17,3 +20,5 @@ insightface
 dynamicprompts
 onnxruntime-gpu
 imageio_ffmpeg
+spandrel
+soundfile
