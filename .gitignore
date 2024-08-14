@@ -20,3 +20,4 @@ venv/
 *.log
 web_custom_versions/
 .cache
+.DS_Store
